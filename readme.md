@@ -26,12 +26,15 @@ sudo apt-get install python-dev python-pip
 ```bash
 sudo pip install spidev
 ```
+
 ![8x8 LED Matrix am Raspberry Pi](http://image.codingworld.eu/storage/1122/show)
 
+
 | Anschlüsse Raspberry Pi | Anschlüsse LED Matrix |
-| -- | -- |
+| ----- |  ----- |
 | 5V | 1 - VCC |
 | GND | 2 - GND |
 | GPIO 10 (MOSI) | 3 - DIN |
 | GPIO 8 (SPI CE0) | 4 - CS |
 | GPIO 11 (SPI CLK) | 5 - CLK |
+
